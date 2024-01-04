@@ -1,0 +1,16 @@
+/* Custom CSS to change the color of the hamburger icon */
+.btn-hamburger{
+    border: solid 2px #fff !important;                  /* White border for the hamburger icon button */
+    outline: none !important;                             /* Remove default outline */
+    cursor: pointer !important;                           /* Set cursor to pointer for interaction */
+}
+/* Styling for focus, active, and visited states of the hamburger icon button */
+.btn-hamburger:focus,.btn-hamburger:active,.btn-hamburger:visited{
+    border: none !important;                             /* Remove border on focus, active, and visited states */
+    outline: solid 2px #fff !important;                /* Add white outline on focus */
+}
+/* Styling for the hamburger icon in light navbar */
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff !important;                 /* White background color for the hamburger icon */
+    color: #fff !important;                            /* White color for the icon */
+}

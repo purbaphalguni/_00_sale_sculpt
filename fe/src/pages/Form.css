@@ -1,0 +1,12 @@
+/* Styles for a form container with border and padding */
+.formBorder{
+    border-radius: 10px;            /* Rounded corners for the form container */
+    border: solid 1px #eaedef;    /* Solid border with a light color */
+    padding: 30px;                  /* Padding inside the form container */
+}
+/* Styles for the submit button in the form */
+.formBtnSubmit{
+    margin-top: 10px;               /* Top margin for spacing */
+    padding: 5px;                   /* Padding inside the button */
+    width:100%;                     /* Full width of the container */
+}

@@ -1,0 +1,49 @@
+cd /path/to/project-root
+
+git init
+
+.gitignore file content
+/node_modules
+/.env
+
+# Navigate to the backend folder
+cd backend
+
+# Initialize a new Node.js project (if not already done)
+npm init -y
+
+# Install dependencies
+npm install
+
+# Add all files to staging
+git add .
+
+# Commit the changes
+git commit -m "Initial commit for backend"
+
+# Link to the GitHub repository (replace 'username' and 'repo' with your GitHub username and repository name)
+git remote add origin https://github.com/purbaphalguni/sale_sculpt.git
+
+# Push to GitHub
+git push -u origin master
+
+# Navigate to the frontend folder
+cd ../frontend
+
+# Initialize a new Node.js project (if not already done)
+npm init -y
+
+# Install dependencies
+npm install
+
+# Add all files to staging
+git add .
+
+# Commit the changes
+git commit -m "Initial commit for frontend"
+
+# Push to GitHub
+git push -u origin master
+
+
+

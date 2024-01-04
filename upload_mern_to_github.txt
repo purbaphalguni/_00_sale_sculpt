@@ -1,0 +1,21 @@
+Steps to Upload MERN Stack Project to GitHub:
+
+. Create a new repository named _00_sale_sculpt
+
+. Navigate to the folder [front end or back end]
+
+. git init
+
+. Make a new file named .gitignore
+	.gitignore file content
+	/node_modules
+	/build
+
+
+. git add .
+
+. git commit -m "Initial commit for <be_or_fe>"
+
+. git remote add origin https://github.com/purbaphalguni/_00_sale_sculpt.git
+
+. git push -u origin master
